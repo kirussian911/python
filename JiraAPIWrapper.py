@@ -59,7 +59,8 @@ import requests
 		pass
  	def new_issue(self, **kwargs):
 		pass
- 	def comment_issue(self, issue, comment)
+ 	def comment_issue(self, issue, comment):
+		pass
 if __name__ == '__main__':
 	MyJira = Jira(username='MyUser', password='MyPassword')
 	print(MyJira.getProjects())
